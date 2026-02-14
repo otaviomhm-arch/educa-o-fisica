@@ -1,0 +1,62 @@
+.capa{
+background-image: url(ginasticaritmicaaparelhoarco-cke.webp);
+background-size: cover;
+background-repeat: no-repeat;
+height: 650px
+}
+
+
+.botao-bonito {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #6a00ff, #ff00c8);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 15px rgba(255, 0, 200, 0.6);
+}
+
+.botao-bonito:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 0, 200, 0.9);
+}
+
+.botao-bonito:active {
+  transform: scale(0.95);
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a00ff, #ff00c8);
+}
+
+ body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #6a00ff, #ff00c8);
+        }
+    
+        table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 2px solid #999; /* linha mais forte no topo */
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ccc; /* linhas separando */
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
