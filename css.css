@@ -73,3 +73,16 @@ td {
 tr {
     border-bottom: 1px solid #ddd;
 }
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.video iframe {
+  width: 80%;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
