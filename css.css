@@ -1,47 +1,57 @@
-.capa{
- margin: 0;
-  min-height: 100vh;
-  background-image: url("ginasticaritmicaaparelhoarco-cke.webp");
-  background-size: cover;        /* Faz a imagem cobrir toda a tela */
-  background-position: center;   /* Centraliza a imagem */
-  background-repeat: no-repeat;  /* Impede repetição */
-  background-attachment: fixed;  /* Opcional: efeito parallax */
-}
-
-
-.botao-bonito {
+.botao {
+  display: inline-block;
   padding: 12px 30px;
-  font-size: 16px;
+  margin: 10px 5px;
+  font-size: 18px;
   font-weight: bold;
-  color: white;
-  background: linear-gradient(135deg, #6a00ff, #ff00c8);
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-  box-shadow: 0 0 15px rgba(255, 0, 200, 0.6);
+  border-radius: 30px;
+  text-decoration: none;
+  color: #2e2e2e;
+
+  background: linear-gradient(to bottom, #56ab2f 0%, #a8e063 50%, #ffffff 100%);
+  background-repeat: no-repeat;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
 
-.botao-bonito:hover {
+.botao:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 25px rgba(255, 0, 200, 0.9);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-.botao-bonito:active {
-  transform: scale(0.95);
+a.botao {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #2e2e2e;
+
+  background: linear-gradient(to bottom, #56ab2f 0%, #a8e063 50%, #ffffff 100%);
+  background-repeat: no-repeat;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+a.botao:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(135deg, #6a00ff, #ff00c8);
+  background: linear-gradient(to bottom, #56ab2f 0%, #a8e063 50%, #ffffff 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* evita repetir ao rolar */
 }
 
- body {
-            margin: 0;
-            height: 100vh;
-            background: linear-gradient(135deg, #6a00ff, #ff00c8);
-        }
+
+
+
     
         table {
     width: 100%;
